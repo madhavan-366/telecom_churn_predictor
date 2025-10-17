@@ -91,26 +91,26 @@ The entire pipeline — from data cleaning and feature engineering to prediction
 
 ## How to Run Locally
 
-## 1. Clone the Repository
+1. **Clone the Repository**
     ```bash
     git clone https://github.com/madhavan-366/telecom_churn_predictor.git
     cd telecom-churn-predictor
 
-## 2. Create and Activate a Virtual Environment (Recommended)
-### For Windows
+2. **Create and Activate a Virtual Environment (Recommended)**
+**For Windows**
     ```bash
     python -m venv venv
     venv\Scripts\activate
 
-### For Mac/Linux
-    ```bash
+**For Mac/Linux**
+     ```bash
     python -m venv venv
     source venv/bin/activate
-
-### 3. Install the Required Dependencies
+    
+3. **Install the Required Dependencies**
     ```bash
     pip install -r requirements.txt
 
-### 4. Run the Streamlit App
+4. **Run the Streamlit App**
     ```bash
     streamlit run app.py
