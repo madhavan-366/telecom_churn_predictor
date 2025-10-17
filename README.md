@@ -97,16 +97,10 @@ The entire pipeline — from data cleaning and feature engineering to prediction
     cd telecom-churn-predictor
 
 2. **Create and Activate a Virtual Environment (Recommended)**
-   
-**For Windows**
     ```bash
     python -m venv venv
-    venv\Scripts\activate
-
-**For Mac/Linux**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate
+    venv\Scripts\activate       # on Windows
+    source venv/bin/activate    # on Mac/Linux
     
 3. **Install the Required Dependencies**
     ```bash
